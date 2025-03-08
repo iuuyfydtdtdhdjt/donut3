@@ -1,0 +1,97 @@
+header{
+    display: flex;
+    gap:130px;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between;
+    background-color: #FFC2E0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.link{
+    margin-left: 25px;
+    padding: 5px;
+    border: white solid;
+    background-color: white;
+    border-radius: 50px;
+    color: #FF78BC;
+}
+
+h1{
+    color: white;
+    margin: 0;
+}
+p{
+    color: white;
+}
+
+.banner{
+    background-image: url(img/banner.png);
+    background-size: cover;
+    background-position: center;
+    margin: 35px;
+    padding: 25px;
+    height: 500px;
+    border-radius:50px;
+}
+
+.banner_text{
+    width: 50%;
+    text-align: center;
+    font-size: 36px;
+    border-radius: 50px;
+    background-color: rgba(255, 176, 188, 0.75); 
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+    font-family: "Inter";
+}
+
+.a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 500px;
+}
+
+.aboba{
+    display: flex;
+}
+
+.Menu_main{
+    background-color: #FFC2E0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_h1{
+    padding-right: 600px;
+    padding-top: 1px;
+    font-size: 42px;
+    font-family: "Inter";
+
+}
+
+
+.Catalog{
+    display: flex;
+}
+
+.Photo{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.texth1{
+    color: #FFC2E0;
+    background-color: white;
+    border-radius: 100px;
+    text-align: center;
+    width: 50%;
+    padding: 30px 0;
+}
