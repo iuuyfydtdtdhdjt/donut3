@@ -66,26 +66,30 @@ p{
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+
 }
 
 .menu_h1{
     padding-right: 600px;
     padding-top: 1px;
-    font-size: 42px;
+    font-size: 96px;
     font-family: "Inter";
+    margin-left: 268px;
 
 }
 
 
 .Catalog{
     display: flex;
+    justify-content: space-around;
 }
 
 .Photo{
     margin-left: 10px;
     margin-right: 5px;
+    display: flex;
+    flex-direction: column;
 }
 .texth1{
     color: #FFC2E0;
@@ -94,23 +98,52 @@ p{
     text-align: center;
     width: 50%;
     padding: 30px 0;
+    margin-left: 25%;
+    margin-bottom: 28px;
+    
 }
-footer{
+.buy{
+    text-align: center;
+}
+.coments_backgrount{
     background-color: #FF78BC;
+    display: flex;
+    flex-direction: column;
+
 }
-
-
-.f_logo{
+.sotial_midea{
+    display: flex;
+    flex-direction: column;
+    margin: 68px;
+}
+.sotial_midea1{
     display: flex;
     align-items: center;
-}
+    gap: 63px;
 
-.Piska{
-    color: white;
+}
+.sotial_midea_a{
+    color:white;
     text-decoration: none;
 }
 
-.fg{
+.com_wrap{
     display: flex;
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.coments{
+    width: 70%;
+    background-color: #FFC2E0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.comentator{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
